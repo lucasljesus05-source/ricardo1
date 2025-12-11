@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Evaluación – Fundamentos de HTML y CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="fondo-teoria">
+
+    <nav class="menu">
+        <a href="teoria.html" class="activo">Teoría</a>
+        <a href="presentacion.html">Presentación</a>
+    </nav>
+
+    <h1 class="titulo">Fundamentos de HTML y CSS – Parte Teórica</h1>
+
+    <h2 class="subtitulo">1. Formas de seleccionar elementos en CSS</h2>
+    <p class="texto">
+        <b>Selector por etiqueta:</b> Selecciona todas las etiquetas del mismo tipo.  
+        Ejemplo: <code>p { color: red; }</code> cambia el color a todos los párrafos.
+    </p>
+
+    <p class="texto">
+        <b>Selector por clase:</b> Selecciona elementos que tienen un atributo <code>class</code>.  
+        Se usa un punto.  
+        Ejemplo: <code>.caja { background: blue; }</code>.
+    </p>
+
+    <p class="texto">
+        <b>Selector por ID:</b> Se usa para identificar un elemento único.  
+        Se escribe con #  
+        Ejemplo: <code>#titulo { font-size: 30px; }</code>.
+    </p>
+
+    <p class="texto">
+        <b>Selectores universales y agrupados:</b>  
+        El selector universal <code>*</code> aplica estilo a todos los elementos.  
+        Los selectores agrupados permiten aplicar el mismo estilo a varios elementos:  
+        Ejemplo: <code>h1, h2, p { margin: 10px; }</code>.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png" class="imagen">
+    <h2 class="subtitulo">2. Modelos de color en CSS</h2>
+    <p class="texto">
+        <b>Color por nombre:</b> Colores predefinidos como <i>red, blue, green</i>.
+    </p>
+    <p class="texto">
+        <b>RGB:</b> Mezcla de colores usando valores entre 0 y 255.  
+        Ejemplo: <code>rgb(255, 0, 0)</code>.
+    </p>
+    <p class="texto">
+        <b>Hexadecimal:</b> Representa los colores con valores hexadecimales.  
+        Ejemplo: <code>#FF0000</code>.
+    </p>
+
+    <h2 class="subtitulo">3. Propiedad Display</h2>
+    <p class="texto">
+        <b>display: block</b> → Ocupa todo el ancho disponible.  
+        Ej: div, h1, p.
+    </p>
+    <p class="texto">
+        <b>display: inline</b> → Ocupa solo el espacio necesario.  
+        Ej: span, a.
+    </p>
+    <p class="texto">
+        <b>display: inline-block</b> → Permite tamaño propio pero se ubica en línea.
+    </p>
+
+    <!-- ───── SECCIÓN 4 ───── -->
+    <h2 class="subtitulo">4. Position Relative y Absolute</h2>
+    <p class="texto">
+        <b>position: relative:</b> Sirve para mover un elemento desde su posición original.
+    </p>
+    <p class="texto">
+        <b>position: absolute:</b> Se posiciona respecto al elemento padre que tenga position: relative.
+    </p>
+    <p class="texto">
+        Ambos se usan juntos para colocar elementos flotantes o decorativos.
+    </p>
+
+</body>
+</html>
