@@ -1,0 +1,80 @@
+.menu {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a.activo {
+    color: yellow;
+}
+
+.fondo-teoria {
+    background: linear-gradient(120deg, #b6e3ff, #e3f8ff);
+    padding-top: 70px;
+}
+
+.fondo-presentacion {
+    background: linear-gradient(120deg, #ffe5b4, #ffd1d1);
+    padding-top: 70px;
+}
+
+.titulo {
+    text-align: center;
+    color: #333;
+}
+
+.subtitulo {
+    color: #444;
+    margin-top: 20px;
+}
+
+.texto {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.imagen {
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+.tarjeta {
+    width: 400px;
+    background: white;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.foto {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.decoracion {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: gold;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.menu a {
+    display: inline-block;
+}
